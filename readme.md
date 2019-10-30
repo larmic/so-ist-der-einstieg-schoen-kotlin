@@ -46,3 +46,8 @@ Vorraussetzungen aufgesetzt werden kann:
 * Kotlin auf der JVM (in diesem Fall 11)
 * Maven als Build-Tool
 * IntelliJ Idea als IDE
+
+### Schritt 1
+
+* Über IDEA ein Maven (JDK11) Java Projekt angelegt
+* Mit `mvn clean package` prüfen, ob das Projekt baut
