@@ -97,3 +97,9 @@ Vorraussetzungen aufgesetzt werden kann:
 * Die spezielle mockito Datei `org.mockito.plugins.MockMaker` in `src/test/kotlin/resources` ablegen
 * Feststellen, dass `mvn clean test` nun läuft
 * Festellen, dass `java -jar target/kotlin-1.0-SNAPSHOT-jar-with-dependencies.jar ` das gewünschte Ergebnis
+
+### Weiterführende Links
+
+* https://play.kotlinlang.org/koans/overview
+* https://kotlinlang.org/docs/tutorials/getting-started.html
+* https://kotlinlang.org/docs/reference/using-maven.html
