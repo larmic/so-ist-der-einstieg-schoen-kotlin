@@ -58,3 +58,10 @@ Vorraussetzungen aufgesetzt werden kann:
 * `kotlin-maven-plugin` in die Maven-Compile-Phase hinzugefügt
 * `src/main/java` zu `src/main/kotlin` umbenannt
 * `src/test/java` zu `src/test/kotlin` umbenannt
+* Mit `mvn clean package` prüfen, ob das Projekt baut
+
+### Schritt 3
+
+* Package und `Main.kt`erstellt
+* Mit `mvn clean package` prüfen, ob das Projekt baut
+* Feststellen, dass `java -jar target/kotlin-1.0-SNAPSHOT.jar` folgenden Fehler liefert: `no main manifest attribute, in target/kotlin-1.0-SNAPSHOT.jar`
