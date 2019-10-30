@@ -77,3 +77,10 @@ Vorraussetzungen aufgesetzt werden kann:
 * Logik von `Main.kt` in `Text.kt` und `TextJoiner.kt` ausgelagern
 * Mit `mvn clean package` prüfen, dass das Projekt baut
 * Festellen, dass `java -jar target/kotlin-1.0-SNAPSHOT-jar-with-dependencies.jar ` das gewünschte Ergebnis
+
+### Schritt 6
+
+* JUnit einbinden
+* Surefire-Plugin einbinden
+* Test für `TextJoiner.kt` implementieren
+* Mit `mvn clean test`, prüfen, dass das Projekt mit Tests baut
