@@ -84,3 +84,9 @@ Vorraussetzungen aufgesetzt werden kann:
 * Surefire-Plugin einbinden
 * Test für `TextJoiner.kt` implementieren
 * Mit `mvn clean test`, prüfen, dass das Projekt mit Tests baut
+
+### Schritt 7
+
+* `TextJoiner.kt` mit Hilfe des Mocking Frameworks Mockito (hier die Kotlin-Variante) testen
+* Feststellen, dass `mvn clean test` den Fehler `Mockito cannot mock/spy because : - final class` liefert
+* Nachdenken 
