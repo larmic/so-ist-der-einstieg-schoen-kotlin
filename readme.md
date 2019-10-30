@@ -51,3 +51,10 @@ Vorraussetzungen aufgesetzt werden kann:
 
 * Über IDEA ein Maven (JDK11) Java Projekt angelegt
 * Mit `mvn clean package` prüfen, ob das Projekt baut
+
+### Schritt 2
+
+* Kotlin als Maven Dependency hinzugefügt
+* `kotlin-maven-plugin` in die Maven-Compile-Phase hinzugefügt
+* `src/main/java` zu `src/main/kotlin` umbenannt
+* `src/test/java` zu `src/test/kotlin` umbenannt
