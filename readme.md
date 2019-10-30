@@ -90,3 +90,10 @@ Vorraussetzungen aufgesetzt werden kann:
 * `TextJoiner.kt` mit Hilfe des Mocking Frameworks Mockito (hier die Kotlin-Variante) testen
 * Feststellen, dass `mvn clean test` den Fehler `Mockito cannot mock/spy because : - final class` liefert
 * Nachdenken 
+
+### Schritt 8
+
+* Festellen, dass Kotlin offen für Erweiterungen und geschlossen für Veränderungen ist. Alle Klassen sind zunächst final
+* Die spezielle mockito Datei `org.mockito.plugins.MockMaker` in `src/test/kotlin/resources` ablegen
+* Feststellen, dass `mvn clean test` nun läuft
+* Festellen, dass `java -jar target/kotlin-1.0-SNAPSHOT-jar-with-dependencies.jar ` das gewünschte Ergebnis
