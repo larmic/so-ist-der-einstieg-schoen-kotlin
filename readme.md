@@ -36,3 +36,13 @@ Nachschlagewerk für die Beteiligten.
 
 Die einzelnen Commits in diesem Repository spielen die gemachten Schritte in dem Termin durch. 
 In den Kommentaren der Commits steht jeweils, was getan wurde.
+
+### Ziel dieses Termins
+
+Es geht hier nicht darum, Vor- und Nachteile von Kotlin aufzuzeigen, denn dazu gibt es 
+genug Lektüre im Netz. Hier gibt es darum, wie ein einfaches Kotlin-Projekt mit folgenden 
+Vorraussetzungen aufgesetzt werden kann:
+
+* Kotlin auf der JVM (in diesem Fall 11)
+* Maven als Build-Tool
+* IntelliJ Idea als IDE
